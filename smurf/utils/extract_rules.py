@@ -1,7 +1,7 @@
 
-from smurf.execute_rf.predicate import Predicate
-from smurf.execute_rf.rule import Rule
-from smurf.execute_rf.rule_set import RuleSet
+from smurf.execute.predicate import Predicate
+from smurf.execute.rule import Rule
+from smurf.execute.rule_set import RuleSet
 from smurf.utils.generic_helper import COMP_OP_MAP
 
 def extract_pos_rules_from_tree(tree, feature_table, start_rule_id, start_predicate_id):
